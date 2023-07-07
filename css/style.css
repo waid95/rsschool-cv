@@ -3,4 +3,42 @@
 .cv-container {
     max-width: 1400px;
     margin: 0 auto;
+    background-color: #FFFFFF;
+}
+
+body {
+    font-family: 'Handlee', cursive;
+    font-family: 'Itim', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Shantell Sans', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    font-size: 38px;
+    
+}
+header{
+    display: flex;
+    
+}
+.introduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-photo {
+    border: 1px solid transparent;
+    border-radius: 20%;
+}
+.nav-list li{
+    display: inline-block;
+    text-transform: uppercase;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
