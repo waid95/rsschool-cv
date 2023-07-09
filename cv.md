@@ -32,7 +32,7 @@ Copied template from Figma https://waid95.github.io/template/ (HTML,CSS)
 
 ## Education
  * BSU, faculty of history,  the source study department (2014-2018)
-  * HTML and CSS course by Cursor (6 weeks, 2023)
+ * HTML and CSS course by Cursor (6 weeks, 2023)
   
 ## Languages: 
 * English -  B1-B2, but at the moment I'm living in the Uk, so language practice I have.
