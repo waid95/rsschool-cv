@@ -1,0 +1,97 @@
+@import url(resset.css);
+
+html {
+    scroll-behavior: smooth; 
+  }
+.cv-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+
+body {
+    font-family: 'Handlee', cursive;
+    font-family: 'Itim', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Shantell Sans', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    font-size: 38px;
+    color: #004225;
+}
+h2 {
+    font-size: 28px;
+    padding: 5px;
+    margin: 20px;
+}
+a {
+    text-decoration: none;
+    color: #050505;
+}
+p {
+    text-indent: 20px;
+}
+
+header{
+    background-color: #9dc4eb;
+}   
+
+.introduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-photo {
+    border: 1px solid transparent;
+    border-radius: 20%;
+    margin: 20px;
+}
+
+.nav-list {
+    background: #3d7bb9;
+}
+
+.nav-list :hover {
+    background: #2f75bb;
+    box-shadow: 2px 2px 5px 2px #040404f9;
+
+}
+nav > ul {
+    padding: 20px 20% 0;
+}
+.nav-list li{
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.section {
+    width: 50%;
+    padding: 10px;
+    margin: 20px;
+}
+@media only screen and (max-width: 700px) {
+    .section {
+      width: 100%;
+    }
+  }
+footer {
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.skills-list { list-style-type: square;}
+.languges-list {list-style-type: square;}
