@@ -28,6 +28,13 @@ h2 {
     padding: 5px;
     margin: 20px;
 }
+a {
+    text-decoration: none;
+    color: #050505;
+}
+p {
+    text-indent: 20px;
+}
 
 header{
     background-color: #9dc4eb;
@@ -41,6 +48,17 @@ header{
 .profile-photo {
     border: 1px solid transparent;
     border-radius: 20%;
+    margin: 20px;
+}
+
+.nav-list {
+    background: #3d7bb9;
+}
+
+.nav-list :hover {
+    background: #2f75bb;
+    box-shadow: 2px 2px 5px 2px #040404f9;
+
 }
 nav > ul {
     padding: 20px 20% 0;
@@ -58,9 +76,16 @@ main {
     flex-wrap: wrap;
     align-content: center;
 }
-section{
+.section {
     width: 50%;
+    padding: 10px;
+    margin: 20px;
 }
+@media only screen and (max-width: 700px) {
+    .section {
+      width: 100%;
+    }
+  }
 footer {
     margin: 20px;
     padding: 10px;
